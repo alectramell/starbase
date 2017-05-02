@@ -1,19 +1,22 @@
 function aCode() {
 	
-	var aCodeString = "1234";
-	alert(aCodeString);
+	var aCodeString = "0000";
+	alert("Apollonian Data Code: ", aCodeString);
+	parent.location = "LoadA.html"
 }
 
 function pCode() {
 	
-	var pCodeString = "1234";
-	alert(pCodeString);
+	var pCodeString = "1111";
+	alert("Plantonian Data Code: ", pCodeString);
+	parent.location = "LoadP.html"
 }
 
 function dCode() {
 	
-	var dCodeString = "1234";
-	alert(dCodeString);
+	var dCodeString = "2222";
+	alert("Dionysian Data Code: ", dCodeString);
+	parent.location = "LoadD.html"
 }
 
 
