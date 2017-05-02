@@ -1,23 +1,22 @@
 function aCode() {
 	
 	var aCodeString = "0000";
-	// alert("CODE:/n"+aCodeString);
-	document.write(aCodeString);
-	parent.location = "LoadA.html"
+	alert(aCodeString);
+	parent.location = "loadA.html";
 }
 
 function pCode() {
 	
 	var pCodeString = "1111";
-	alert("Plantonian Data Code: ", pCodeString);
-	parent.location = "LoadP.html"
+	alert(pCodeString);
+	parent.location = "loadP.html";
 }
 
 function dCode() {
 	
 	var dCodeString = "2222";
-	alert("Dionysian Data Code: ", dCodeString);
-	parent.location = "LoadD.html"
+	alert(dCodeString);
+	parent.location = "loadD.html";
 }
 
 
