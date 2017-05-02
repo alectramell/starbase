@@ -1,16 +1,18 @@
 #!/bin/bash
 
-convert \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-          \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-          \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-          \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-          \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-	  \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-	  \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-	  \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-	  \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
-	  \( lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg lava1.jpg +append \) \
+convert \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+          \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+          \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+          \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+          \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+	  \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+	  \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+	  \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+	  \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
+	  \( lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg lava2.jpg +append \) \
           -background none -append lavamap.png
+
+convert lavamap.png -paint 3.5 lavamap.png
 
 convert lavamap.png -resize 1280x1280 lavamap.gif
 
