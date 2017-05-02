@@ -1,7 +1,8 @@
 function aCode() {
 	
 	var aCodeString = "0000";
-	alert("<center>Apollonian Data Code:</center><br><center>"+aCodeString+"</center>");
+	// alert("CODE:/n"+aCodeString);
+	document.write(aCodeString);
 	parent.location = "LoadA.html"
 }
 
