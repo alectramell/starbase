@@ -1,24 +1,21 @@
 function aCode() {
 	
-	var aCodeString = "0000";
-	// alert(aCodeString);
-	window.location = 'https://github.com/alectramell/starbase/raw/master/boxes/A/'+aCodeString+'.zip';
+	var aCodeString = "00000";
+	alert(aCodeString);
 	parent.location = "loadA.html";
 }
 
 function pCode() {
 	
-	var pCodeString = "0000";
-	// alert(pCodeString);
-	window.location = 'https://github.com/alectramell/starbase/raw/master/boxes/A/'+aCodeString+'.zip';
+	var pCodeString = "000000";
+	alert(pCodeString);
 	parent.location = "loadP.html";
 }
 
 function dCode() {
 	
-	var dCodeString = "0000";
-	// alert(dCodeString);
-	window.location = 'https://github.com/alectramell/starbase/raw/master/boxes/A/'+aCodeString+'.zip';
+	var dCodeString = "00000";
+	alert(dCodeString);
 	parent.location = "loadD.html";
 }
 
